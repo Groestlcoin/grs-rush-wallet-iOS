@@ -992,7 +992,7 @@ rush = window.rush = {
         {
             var btcValue = amount / this.price;
             btcValue = btcFormat( btcValue );
-            $("#fiatPrice").html("(฿" + btcValue + ")");
+            $("#fiatPrice").html("G" + btcValue + ")");
 
         }
         else
@@ -1022,7 +1022,7 @@ rush = window.rush = {
         {
             var btcValue = amount / this.price;
             btcValue = btcFormat( btcValue );
-            $("#fiatPrice2").html("(฿" + btcValue + ")");
+            $("#fiatPrice2").html("G" + btcValue + ")");
 
         }
         else
