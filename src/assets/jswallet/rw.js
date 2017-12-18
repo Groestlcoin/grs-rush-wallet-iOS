@@ -875,7 +875,7 @@ rush = window.rush = {
                 spendable = 0;
 
             $("#btcBalance").html( btcFormat( rush.balance ) );
-            $("#spendable").html("฿" + btcFormat( spendable ) );
+            $("#spendable").html("G" + btcFormat( spendable ) );
 
             rush.getFiatPrice();
 
